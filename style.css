@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* styles */
+body {
+	background: #F4F8FC;
+}
+#header,
+#content,
+#footer {
+	margin: 20px auto;
+	width:960px;
+}
+#header,
+#content {
+	border-bottom: 1px solid #A9D2E8;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+#logo {
+	color: #003366;
+	font-size: 40px;
+	font-weight: bold;
+	float: left;
+}
+#header_nav {
+	float: right;
+	margin-top: 10px;
+}
+#header_nav ul > li {
+	float: left;
+	padding-right: 20px;
+}
+#header_nav li a {
+	color: #4C9AC9;
+	font-size: 20px;
+	text-decoration: none;
+}
+#header_nav li a:hover {
+	color: #003366;
+}
+.title {
+	color: #7CA60A;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+#content p,
+#footer p {
+	color: #404040;
+	font-size: 16px;
+	line-height: 1.3;
+	margin-bottom: 15px;
+}
+#footer p {
+	color: #4C9AC9;
+	font-size: 18px;
+	text-align: center;
+}
